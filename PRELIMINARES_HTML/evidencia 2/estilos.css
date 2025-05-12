@@ -1,0 +1,23 @@
+/*Dale una fuente a todos los elementos h*/
+h2,h3{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Quita el subrayado a todos los elementos a dentro del contenedor y poner color firebrick*/
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+/*Agregar un font-size de 20px y en negrita solo a los a de contenedor*/
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Agregar el color gold a el elemento p que esta seguidamente del h2*/
+h2+p{
+    color: gold;
+}
+/*Agregar el color indigo a todos los parrafos que esten despues de un h3*/
+h3~p{
+    color: indigo;
+}
